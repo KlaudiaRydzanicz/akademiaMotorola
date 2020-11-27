@@ -1,0 +1,82 @@
+body
+{
+	background-color: #FFFFE0;
+	font-family: Veranda;
+	font-size: 20px;
+	
+}
+
+#all
+{
+width: 1000px;
+margin-left: auto;
+margin-right: auto;
+}
+#title
+{
+background-color: #FFDAB9;
+text-align: center;
+margin-top: 20px;
+letter-spacing: 3px;
+font-family: 'Dancing Script',sans-serif, cursive;
+}
+
+h1
+{
+	
+}
+#add
+{
+	width: 1000px;
+	height: 200px;
+	
+}
+#navmenu
+{
+	background-color:#FFDAB9;
+	margin-top: 10px;
+	text-align: center;
+	word-spacing: 10px;
+	padding:10px;
+	
+}
+.option
+{
+float:left;
+min-width: 50px;
+height:25px;
+font-size:18px;
+padding:25px;
+border-right:2px dotted #444444;
+}
+#clear
+{
+	clear:both;
+}
+/*link z nawigacji*/
+a:link
+{
+	color: black;
+}
+
+a:visited
+{
+	color: black;
+}
+a:hover
+{
+	color: red;
+}
+#content
+{
+	background-color: white;
+	text-align: center;
+	
+}
+
+#footer
+{
+background-color: white;
+text-align: center;
+padding: 20px;
+}
