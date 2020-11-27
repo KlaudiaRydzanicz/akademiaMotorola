@@ -40,14 +40,26 @@ h1
 	padding:10px;
 	
 }
-.option
+.option a
 {
 float:left;
-min-width: 50px;
+min-width: 144px;
 height:25px;
 font-size:18px;
 padding:25px;
 border-right:2px dotted #444444;
+
+
+}
+.option #last
+{
+float:left;
+min-width: 144px;
+height:25px;
+font-size:18px;
+padding:25px;
+border-right:0px transparent;
+
 }
 #clear
 {
