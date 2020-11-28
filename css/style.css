@@ -1,7 +1,8 @@
+
 body
 {
-	background-color: #FFFFE0;
-	font-family: Veranda;
+	background-color: white;
+	font-family: 'Dancing Script', cursive;
 	font-size: 20px;
 	
 }
@@ -14,26 +15,27 @@ margin-right: auto;
 }
 #title
 {
-background-color: #FFDAB9;
+
+background-color: white;
+color: white;
 text-align: center;
 margin-top: 20px;
-letter-spacing: 3px;
-font-family: 'Dancing Script',sans-serif, cursive;
+margin-bottom: 20px;
+height: 150px;
+
 }
 
-h1
-{
-	
-}
+
 #add
 {
+
 	width: 1000px;
 	height: 200px;
 	
 }
 #navmenu
 {
-	background-color:#FFDAB9;
+	background-color:#A89B88;
 	margin-top: 10px;
 	text-align: center;
 	word-spacing: 10px;
@@ -69,6 +71,7 @@ border-right:0px transparent;
 a:link
 {
 	color: black;
+	
 }
 
 a:visited
@@ -77,18 +80,84 @@ a:visited
 }
 a:hover
 {
-	color: red;
+	color: white;
 }
 #content
 {
-	background-color: white;
+	background-color: #F6F4E1;
 	text-align: center;
+	margin-top: 100px;
+	
+}
+p
+{
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	text-align: center;
+	padding:10px;
+	font-size: 17px;
+}
+
+input[type=text],
+input[type=email]
+{
+	width: 300px;
+	height: 30px;
+	background-color: white;
+	border: none;
+	border-radius: 5px;
+	font-size: 17px;
+	font-family: 'Dancing Script', cursive;
+}
+
+	input[type=submit]
+	{
+	width: 300px;
+	height: 30px;
+	background-color: #A89B88;
+	color: white;
+	border: black;
+	border-radius: 5px;
+	font-size: 20px;
+	cursor: pointer;
+	letter-spacing: 5px;
+	font-family: 'Dancing Script', cursive;
+	margin-bottom: 20px;
+	
+}
+label
+{
+	font-family: 'Dancing Script',sans-serif, cursive;
+	
+}
+textarea
+{
+	width: 400px;
+	height: 200px;
+	background-color: white;
+	border: black;
+	border-radius: 5px;
+	font-size: 15px;
+	font-family: 'Dancing Script', cursive;
 	
 }
 
+
+
 #footer
 {
-background-color: white;
+background-color: #A89B88;
 text-align: center;
 padding: 20px;
+margin-top: 40px;
+font-size: 15px
 }
+
+
+
+
+
+
+
+}6b
